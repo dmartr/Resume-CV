@@ -1,0 +1,130 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={Resume Darío Martínez},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{035ede}
+
+\begin{document}
+\header{Darío}{ Martínez}
+      {Master Exchange Student at EPFL}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Address}
+    Route Cantonale 99A 
+    1025 St-Sulpice
+    ~
+  \section{Tel \& Slack}
+    +34 654 597642
+    @dmartr
+    ~
+  \section{Mail}
+    \href{mailto:dario.martinez.romero@gmail.com}{\textbf{dario.martinez.romero}\\@gmail.com}
+    \href{mailto:dario.martinezromero@epfl.ch}{\textbf{dario.martinezromero}\\@epfl.ch}
+    ~
+  \section{Links}
+  \href{https://github.com/dmartr}{github.com/dmartr}
+    \href{http://www.ch.linkedin.com/in/dariomrt}{linkedin.com/in/dmartr}
+    \href{https://www.kaggle.com/dmartr}{kaggle.com/dmartr}
+    ~
+  \section{Programming}
+    \textbf{Languages\\} Python, Java, C, Matlab
+    \textbf{Databases\\} Relational Design, SQL, MongoDB
+    \textbf{Data Science\\} Supervised / Unsupervised Learning, Pandas, TensorFlow 
+    \textbf{Web Development\\} Javascript, PHP, HTML, CSS, Docker
+    \textbf{MV* Frameworks\\} Node.js, Angular.js
+    \textbf{Other\\} Signal Processing, Android, iOS (Swift)
+    ~
+  \section{OS Preference}
+    \textbf{MacOS}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Linux}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Windows}\includegraphics[scale=0.40]{img/1stars.png}
+    ~
+  \section{Languages}
+    \textbf{Spanish}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{French}\includegraphics[scale=0.40]{img/1stars.png}
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {09/14 - 08/16}
+    {Full Stack Developer Internship}
+    {New Generation Internet Group, UPM, Spain}
+    {Development of a scalable library of open source components (Generic Enablers) that put into effect functionalities such as the connection to the Internet of Things or Data Analysis tools. In the frame of the European Commission initiative called "FIWARE". More info: \href{http://catalogue.fiware.org}{catalogue.fiware.org}\\}
+  \entry
+    {09/12 - 06/14}
+    {Coding Tutor}
+    {Self-Employed}
+    {Java and C programming coaching for first year bachelor students.}
+\end{entrylist}
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2016 - 2017}
+    {Exchange Master specialization year}
+    {EPFL, Switzerland}
+    {Data Science and Artificial Intelligence.\\
+    Courses: Pattern Classification and Machine Learning, Applied Data Analysis, Intelligent Agents, Concurrent Algorithms, Cryptography and Security.\\}
+    \entry
+    {2015 - 2017}
+    {Master in Telecommunication Engineering\\}
+    {Universidad Politécnica de Madrid (UPM), Spain}
+    {Main subjects: Optimization algorithms and parameter estimation, software development for data applications, integration of networks, applications and contents.\\}
+  \entry
+    {2012 - 2015}
+    {Bachelor in Telecommunication Technologies and Services\\}
+    {Universidad Politécnica de Madrid (UPM), Spain}
+    {Intensification in Computer Science. Main subjects: Programming, Information Theory, Analysis and Design of Software, TCP/IP, Android/iOS development
+    .\\
+    \emph{Title of the Thesis: "Internet of things virtualization and identity management via FIWARE Generic Enablers".}\\}
+  \entry
+    {2000 - 2005}
+    {International Baccalaureate}
+    {IES Ramiro de Maeztu, Madrid, Spain}
+    {Scientific Secondary School.\\
+    Main subjects: Matematics, Physics, Chemistry, Computer Science.}
+\end{entrylist}
+
+\section{Certifications}
+
+\begin{entrylist}
+    \entry
+    {12/2015}
+    {IELTS}
+    {British Council}
+    {\emph{BAND 7.5 (C1-C2)}}
+    
+    \entry
+    {06/2015}
+    {Data Science \& Machine Learning in R}
+    {Johns Hopkins University. E-learning}
+    
+\end{entrylist}
+\section{Awards}
+\begin{entrylist}
+\entry
+    {11/2015}
+    {Openback Hacking Competition. 1º Prize (Group Category)}
+    {Openbank}
+    {\emph{Development of a cross-platform mobile application for paying receipts online using a digital signature.}}
+\end{entrylist}
+\end{document}
